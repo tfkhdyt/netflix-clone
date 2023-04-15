@@ -8,7 +8,7 @@
 	<body bg="#1a1c22" font="montserrat">
 		<!-- header -->
 		<header>
-			<nav container flex items="center" p="y-10" m="x-auto">
+			<nav container flex items="center" p="y-10 x-16" m="x-auto">
 				<div basis="1/3">
 					<img src="assets/img/netflix_logo.png" alt="Netflix logo" height="24" />
 				</div>
@@ -46,44 +46,42 @@
 			</nav>
 		</header>
 		<!-- hero -->
-		<section>
-			<div container flex m="x-auto" space="x-4" items="center">
-				<div text="#FEF4F4" basis="3/6">
-					<h1
-						font="volkhov"
-						font="bold"
-						text="xl md:3xl lg:5xl xl:6xl"
-						leading="relaxed md:relaxed lg:relaxed xl:relaxed"
-						max-w="xl"
-					>
-						Nikmati Tontonan Dimana Saja, dan Kapan Saja
-					</h1>
-					<p leading="8" m="t-4">
-						Tonton apa saja secara online dari komputer pribadi atau di perangkat yang terhubung ke
-						Internet dan mendukung aplikasi Netflix, dan gunakan download untuk menonton saat kamu
-						di perjalanan dan tidak punya koneksi Internet.
-					</p>
-					<button
-						bg="gradient-to-r"
-						from="#BC0E19"
-						to="#DB202C"
-						text="#FEF4F4"
-						p="y-2 x-6"
-						rounded="xl"
-						shadow="md #DB202C"
-						font="semibold"
-						m="t-6"
-					>
-						Daftar Sekarang
-					</button>
-				</div>
-				<div basis="3/6">
-					<img src="assets/img/Img-hero.png" alt="Hero image" width="95%" ml="auto" />
-				</div>
+		<section container flex m="x-auto" p="x-16" space="x-4" items="center">
+			<div text="#FEF4F4" basis="3/6">
+				<h1
+					font="volkhov"
+					font="bold"
+					text="xl md:3xl lg:5xl xl:6xl"
+					leading="relaxed md:relaxed lg:relaxed xl:relaxed"
+					max-w="xl"
+				>
+					Nikmati Tontonan Dimana Saja, dan Kapan Saja
+				</h1>
+				<p leading="8" m="t-4">
+					Tonton apa saja secara online dari komputer pribadi atau di perangkat yang terhubung ke
+					Internet dan mendukung aplikasi Netflix, dan gunakan download untuk menonton saat kamu di
+					perjalanan dan tidak punya koneksi Internet.
+				</p>
+				<button
+					bg="gradient-to-r"
+					from="#BC0E19"
+					to="#DB202C"
+					text="#FEF4F4"
+					p="y-2 x-6"
+					rounded="xl"
+					shadow="md #DB202C"
+					font="semibold"
+					m="t-6"
+				>
+					Daftar Sekarang
+				</button>
+			</div>
+			<div basis="3/6">
+				<img src="assets/img/Img-hero.png" alt="Hero image" width="95%" ml="auto" />
 			</div>
 		</section>
 		<!-- features -->
-		<section container m="x-auto y-16 t-32" space="y-8">
+		<section container m="x-auto y-16 t-32" p="x-16" space="y-8">
 			<div>
 				<h2
 					font="volkhov"
@@ -91,13 +89,21 @@
 					max-w="md"
 					m="x-auto"
 					leading="relaxed md:relaxed lg:relaxed xl:relaxed"
-					text="#FEF4F4 center xl md:3xl xl:4xl"
+					text="#FEF4F4 center 2xl md:3xl xl:4xl"
 				>
 					Layanan Terbaik yang Tidak Mengecewakan
 				</h2>
 			</div>
 			<div grid="~ cols-1 md:cols-2 xl:cols-4" gap="10">
-				<div bg="#1F2127" rounded="3xl" p="7" flex="~ col" space="y-3" justify="start">
+				<div
+					bg="#1F2127 hover:#26282D"
+					rounded="3xl"
+					p="7"
+					flex="~ col"
+					space="y-3"
+					justify="start"
+					transition
+				>
 					<img src="assets/img/fluent_tv-24-regular.png" width="70" alt="TV" />
 					<h3 text="#FEF4F4 lg" font="medium">Tonton langsung di TV</h3>
 					<p text="#E3E0E0 sm" font="light" leading="7">
@@ -105,21 +111,45 @@
 						lagi
 					</p>
 				</div>
-				<div bg="#1F2127" rounded="3xl" p="7" flex="~ col" space="y-3" justify="start">
+				<div
+					bg="#1F2127 hover:#26282D"
+					rounded="3xl"
+					p="7"
+					flex="~ col"
+					space="y-3"
+					justify="start"
+					transition
+				>
 					<img src="assets/img/fluent_phone-tablet-20-regular.png" width="70" alt="Offline" />
 					<h3 text="#FEF4F4 lg" font="medium">Download untuk offline</h3>
 					<p text="#E3E0E0 sm" font="light" leading="7">
 						Simpan dengan mudah agar selalu ada acara TV dan film yang bisa ditonton
 					</p>
 				</div>
-				<div bg="#1F2127" rounded="3xl" p="7" flex="~ col" space="y-3" justify="start">
+				<div
+					bg="#1F2127 hover:#26282D"
+					rounded="3xl"
+					p="7"
+					flex="~ col"
+					space="y-3"
+					justify="start"
+					transition
+				>
 					<img src="assets/img/gridicons_share-computer.png" width="70" alt="Share" />
 					<h3 text="#FEF4F4 lg" font="medium">Akses berbagai perangkat</h3>
 					<p text="#E3E0E0 sm" font="light" leading="7">
 						Streaming film dan acara TV tak terbatas di ponsel, tablet, laptop, dan TV-mu
 					</p>
 				</div>
-				<div bg="#1F2127" rounded="3xl" p="7" flex="~ col" space="y-3" justify="start">
+				<div
+					bg="#1F2127 hover:#26282D"
+					rounded="3xl"
+					p="7"
+					flex="~ col"
+					space="y-3"
+					justify="start"
+					transition
+				>
 					<img src="assets/img/cil_child.png" width="70" alt="Child" />
 					<h3 text="#FEF4F4 lg" font="medium">Buat profil untuk anak</h3>
 					<p text="#E3E0E0 sm" font="light" leading="7">
