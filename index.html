@@ -8,7 +8,7 @@
 	<body bg="#1a1c22" font="montserrat">
 		<!-- header -->
 		<header>
-			<nav container flex items="center" p="y-10 x-16" m="x-auto">
+			<nav container flex items="center" p="y-10 x-10 md:x-16" m="x-auto">
 				<div basis="1/3">
 					<img src="assets/img/netflix_logo.png" alt="Netflix logo" height="24" />
 				</div>
@@ -46,12 +46,12 @@
 			</nav>
 		</header>
 		<!-- hero -->
-		<section container flex m="x-auto" p="x-16" space="x-4" items="center">
+		<section container flex="~ col md:row" m="x-auto" p="x-10 md:x-16" gap="16 md:4" items="center">
 			<div text="#FEF4F4" basis="3/6">
 				<h1
 					font="volkhov"
 					font="bold"
-					text="xl md:3xl lg:5xl xl:6xl"
+					text="3xl lg:5xl xl:6xl"
 					leading="relaxed md:relaxed lg:relaxed xl:relaxed"
 					max-w="xl"
 				>
@@ -77,11 +77,11 @@
 				</button>
 			</div>
 			<div basis="3/6">
-				<img src="assets/img/Img-hero.png" alt="Hero image" width="95%" ml="auto" />
+				<img src="assets/img/Img-hero.png" alt="Hero image" width="95%" m="md:l-auto" />
 			</div>
 		</section>
 		<!-- features -->
-		<section container m="x-auto y-16 t-32" p="x-16" space="y-8">
+		<section container m="x-auto y-16 t-20 md:t-40" p="x-10 md:x-16" space="y-8">
 			<div>
 				<h2
 					font="volkhov"
@@ -89,7 +89,7 @@
 					max-w="md"
 					m="x-auto"
 					leading="relaxed md:relaxed lg:relaxed xl:relaxed"
-					text="#FEF4F4 center 2xl md:3xl xl:4xl"
+					text="#FEF4F4 2xl md:3xl xl:4xl center"
 				>
 					Layanan Terbaik yang Tidak Mengecewakan
 				</h2>
@@ -157,6 +157,23 @@
 						membatasi rating usia konten yang bisa ditonton anak
 					</p>
 				</div>
+			</div>
+		</section>
+		<!-- section 3 -->
+		<section flex="~ col md:row" container m="x-auto y-16" p="x-10 md:x-16" gap="4" items="center">
+			<div basis="60% xl:55%">
+				<img src="assets/img/tv.png" width="100%" alt="TV" />
+			</div>
+			<div basis="40% xl:35%">
+				<h2
+					font="volkhov"
+					font="bold"
+					m="x-auto"
+					leading="relaxed md:relaxed lg:relaxed xl:relaxed"
+					text="#FEF4F4 2xl md:3xl xl:4xl"
+				>
+					Tonton Film, Acara TV Tak Terbatas, dan Lebih Banyak Lagi
+				</h2>
 			</div>
 		</section>
 		<script type="module" src="/main.js"></script>
