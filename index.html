@@ -104,6 +104,7 @@
 					space="y-3"
 					justify="start"
 					transition
+					duration="500"
 				>
 					<img src="assets/img/fluent_tv-24-regular.png" width="70" alt="TV" />
 					<h3 text="#FEF4F4 lg" font="medium">Tonton langsung di TV</h3>
@@ -120,6 +121,7 @@
 					space="y-3"
 					justify="start"
 					transition
+					duration="500"
 				>
 					<img src="assets/img/fluent_phone-tablet-20-regular.png" width="70" alt="Offline" />
 					<h3 text="#FEF4F4 lg" font="medium">Download untuk offline</h3>
@@ -135,6 +137,7 @@
 					space="y-3"
 					justify="start"
 					transition
+					duration="500"
 				>
 					<img src="assets/img/gridicons_share-computer.png" width="70" alt="Share" />
 					<h3 text="#FEF4F4 lg" font="medium">Akses berbagai perangkat</h3>
@@ -150,6 +153,7 @@
 					space="y-3"
 					justify="start"
 					transition
+					duration="500"
 				>
 					<img src="assets/img/cil_child.png" width="70" alt="Child" />
 					<h3 text="#FEF4F4 lg" font="medium">Buat profil untuk anak</h3>
@@ -161,7 +165,14 @@
 			</div>
 		</section>
 		<!-- section 3 -->
-		<section flex="~ col md:row" container m="x-auto y-16" p="x-10 md:x-16" gap="4" items="center">
+		<section
+			flex="~ col-reverse md:row"
+			container
+			m="x-auto y-24"
+			p="x-10 md:x-16"
+			gap="4"
+			items="center"
+		>
 			<div basis="60% xl:55%">
 				<img src="assets/img/tv.png" width="100%" alt="TV" />
 			</div>
@@ -175,6 +186,150 @@
 				>
 					Tonton Film, Acara TV Tak Terbatas, dan Lebih Banyak Lagi
 				</h2>
+			</div>
+		</section>
+		<!-- popular -->
+		<section container m="x-auto y-24" p="x-10 md:x-16" space="y-8">
+			<div flex="~ col md:row" items="start md:end" justify="between" gap="4">
+				<h2
+					font="volkhov"
+					font="bold"
+					leading="relaxed md:relaxed lg:relaxed xl:relaxed"
+					text="#FEF4F4 2xl md:3xl xl:4xl"
+					max-w="md:md"
+				>
+					Film dan Acara TV Populer Bulan Ini
+				</h2>
+				<button
+					bg="gradient-to-r"
+					from="#BC0E19"
+					to="#DB202C"
+					text="#FEF4F4"
+					p="y-2 x-6"
+					rounded="xl"
+					shadow="md #DB202C"
+					font="semibold"
+				>
+					Lihat Semua
+				</button>
+			</div>
+			<div grid="~ cols-1 md:cols-2 xl:cols-4" gap="10">
+				<div
+					bg="#1F2127"
+					rounded="3xl"
+					p="7"
+					flex="~ col"
+					space="y-5"
+					justify="start"
+					border="~ #FEF4F4"
+					shadow="hover:xl #40434E/25"
+					transition
+					duration="500"
+				>
+					<img
+						src="assets/img/breaking-bad.jpg"
+						width="100%"
+						alt="Breaking Bad"
+						rounded="2xl"
+						aspect="242/155"
+						object="cover"
+					/>
+					<div space="y-3">
+						<h3 text="#FEF4F4 lg" font="medium">Breaking Bad</h3>
+						<h3 text="#FEF4F4">Crime, Drama, Thriller</h3>
+						<span flex font="light" items="center" text="#E3E0E0" space="x-1.5">
+							<img src="assets/img/star.png" height="20" alt="Star" />
+							<p>9.5/10 IMDb</p>
+						</span>
+					</div>
+				</div>
+				<div
+					bg="#1F2127"
+					rounded="3xl"
+					p="7"
+					flex="~ col"
+					space="y-5"
+					justify="start"
+					border="~ #FEF4F4"
+					shadow="hover:xl #40434E/25"
+					transition
+					duration="500"
+				>
+					<img
+						src="assets/img/daredevil.webp"
+						width="100%"
+						alt="Breaking Bad"
+						rounded="2xl"
+						aspect="242/155"
+						object="cover"
+					/>
+					<div space="y-3">
+						<h3 text="#FEF4F4 lg" font="medium">Daredevil</h3>
+						<h3 text="#FEF4F4">Action, Crime, Drama</h3>
+						<span flex font="light" items="center" text="#E3E0E0" space="x-1.5">
+							<img src="assets/img/star.png" height="20" alt="Star" />
+							<p>8.6/10 IMDb</p>
+						</span>
+					</div>
+				</div>
+				<div
+					bg="#1F2127"
+					rounded="3xl"
+					p="7"
+					flex="~ col"
+					space="y-5"
+					justify="start"
+					border="~ #FEF4F4"
+					shadow="hover:xl #40434E/25"
+					transition
+					duration="500"
+				>
+					<img
+						src="assets/img/scott-pilgrim.jpg"
+						width="100%"
+						alt="Breaking Bad"
+						rounded="2xl"
+						aspect="242/155"
+						object="cover"
+					/>
+					<div space="y-3">
+						<h3 text="#FEF4F4 lg" font="medium">Scott Pilgrim vs. the World</h3>
+						<h3 text="#FEF4F4">Action, Comedy, Fantasy</h3>
+						<span flex font="light" items="center" text="#E3E0E0" space="x-1.5">
+							<img src="assets/img/star.png" height="20" alt="Star" />
+							<p>7.5/10 IMDb</p>
+						</span>
+					</div>
+				</div>
+				<div
+					bg="#1F2127"
+					rounded="3xl"
+					p="7"
+					flex="~ col"
+					space="y-5"
+					justify="start"
+					border="~ #FEF4F4"
+					shadow="hover:xl #40434E/25"
+					transition
+					duration="500"
+				>
+					<img
+						src="assets/img/drive.jpg"
+						width="100%"
+						alt="Breaking Bad"
+						rounded="2xl"
+						aspect="242/155"
+						object="cover"
+					/>
+					<div space="y-3">
+						<h3 text="#FEF4F4 lg" font="medium">Drive</h3>
+						<h3 text="#FEF4F4">Action, Drama</h3>
+						<span flex font="light" items="center" text="#E3E0E0" space="x-1.5">
+							<img src="assets/img/star.png" height="20" alt="Star" />
+							<p>7.8/10 IMDb</p>
+						</span>
+					</div>
+				</div>
 			</div>
 		</section>
 		<script type="module" src="/main.js"></script>
