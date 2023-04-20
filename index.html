@@ -14,7 +14,7 @@
 	<body bg="#1a1c22" font="montserrat">
 		<!-- header -->
 		<header>
-			<nav container flex items="center" p="y-10 x-10 md:x-16" m="x-auto">
+			<nav lg:container flex items="center" p="y-10 x-10 md:x-16" m="x-auto">
 				<div basis="1/3">
 					<img src="assets/img/netflix_logo.png" alt="Netflix logo" height="24" />
 				</div>
@@ -52,7 +52,14 @@
 			</nav>
 		</header>
 		<!-- hero -->
-		<section container flex="~ col md:row" m="x-auto" p="x-10 md:x-16" gap="16 md:4" items="center">
+		<section
+			lg:container
+			flex="~ col md:row"
+			m="x-auto"
+			p="x-10 md:x-16"
+			gap="16 md:4"
+			items="center"
+		>
 			<div text="#FEF4F4" basis="3/6">
 				<h1
 					font="volkhov"
@@ -87,7 +94,7 @@
 			</div>
 		</section>
 		<!-- features -->
-		<section container m="x-auto y-16 t-20 md:t-40" p="x-10 md:x-16" space="y-8">
+		<section lg:container m="x-auto y-16 t-20 md:t-40" p="x-10 md:x-16" space="y-8">
 			<div>
 				<h2
 					font="volkhov"
@@ -172,7 +179,7 @@
 		<!-- section 3 -->
 		<section
 			flex="~ col-reverse md:row"
-			container
+			lg:container
 			m="x-auto y-24"
 			p="x-10 md:x-16"
 			gap="4"
@@ -194,7 +201,7 @@
 			</div>
 		</section>
 		<!-- popular -->
-		<section container m="x-auto y-24" p="x-10 md:x-16" space="y-8">
+		<section lg:container m="x-auto y-24" p="x-10 md:x-16" space="y-8">
 			<div flex="~ col md:row" items="start md:end" justify="between" gap="4">
 				<h2
 					font="volkhov"
@@ -220,7 +227,7 @@
 			</div>
 			<div grid="~ cols-1 md:cols-2 xl:cols-4" gap="10">
 				<div
-					bg="#1F2127"
+					bg="#1F2127 hover:#26282D"
 					rounded="3xl"
 					p="7"
 					flex="~ col"
@@ -249,7 +256,7 @@
 					</div>
 				</div>
 				<div
-					bg="#1F2127"
+					bg="#1F2127 hover:#26282D"
 					rounded="3xl"
 					p="7"
 					flex="~ col"
@@ -278,7 +285,7 @@
 					</div>
 				</div>
 				<div
-					bg="#1F2127"
+					bg="#1F2127 hover:#26282D"
 					rounded="3xl"
 					p="7"
 					flex="~ col"
@@ -307,7 +314,7 @@
 					</div>
 				</div>
 				<div
-					bg="#1F2127"
+					bg="#1F2127 hover:#26282D"
 					rounded="3xl"
 					p="7"
 					flex="~ col"
@@ -334,6 +341,174 @@
 							<p>7.8/10 IMDb</p>
 						</span>
 					</div>
+				</div>
+			</div>
+		</section>
+		<!-- pricing -->
+		<section lg:container m="x-auto y-10 md:y-48" p="x-10 md:x-16" space="y-8">
+			<div>
+				<h2
+					font="volkhov"
+					font="bold"
+					max-w="md"
+					m="x-auto"
+					leading="relaxed md:relaxed lg:relaxed xl:relaxed"
+					text="#FEF4F4 2xl md:3xl xl:4xl center"
+				>
+					Pilih Paket yang Cocok Untukmu
+				</h2>
+			</div>
+			<div grid="~ cols-1 lg:cols-3" gap="10">
+				<div bg="#1F2127" rounded="3xl" text="center" p="y-8 x-6">
+					<h3 text="#FEF4F4 xl" font="semibold">Basic</h3>
+					<div text="#DB202C 3xl" font="semibold" m="y-6">
+						Rp 120,000<span text="#FEF4F4 sm" font="normal">/bulan</span>
+					</div>
+					<ul text="#FEF4F4 left" space="y-3.5">
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Ponsel, Tablet, Komputer, TV</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>No Ads</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Batalkan Kapan Saja</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Kualitas Video Baik</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Resolusi 480p</p>
+						</li>
+						<li>
+							<p text="#ABACAF" font="light" m="l-8">Resolusi 720p</p>
+						</li>
+						<li>
+							<p text="#ABACAF" font="light" m="l-8">Resolusi 1080p</p>
+						</li>
+						<li>
+							<p text="#ABACAF" font="light" m="l-8">Resolusi 4K+HDR</p>
+						</li>
+					</ul>
+					<button
+						bg="transparent"
+						text="#FEF4F4"
+						p="y-2 x-6"
+						rounded="xl"
+						font="semibold"
+						m="t-12"
+						border="~ #FEF4F4"
+					>
+						Pilih Paket
+					</button>
+				</div>
+				<div rounded="3xl" text="center" p="y-8 x-6" border="~ #FEF4F4" class="card-gradient">
+					<h3 text="#FEF4F4 xl" font="semibold">Standard</h3>
+					<div text="#DB202C 3xl" font="semibold" m="y-6">
+						Rp 153,000<span text="#FEF4F4 sm" font="normal">/bulan</span>
+					</div>
+					<ul text="#FEF4F4 left" space="y-3.5">
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Ponsel, Tablet, Komputer, TV</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>No Ads</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Batalkan Kapan Saja</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Kualitas Video Baik</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Resolusi 480p</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Resolusi 720p</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Resolusi 1080p</p>
+						</li>
+						<li>
+							<p text="#ABACAF" font="light" m="l-8">Resolusi 4K+HDR</p>
+						</li>
+					</ul>
+					<button
+						bg="gradient-to-r"
+						from="#BC0E19"
+						to="#DB202C"
+						text="#FEF4F4"
+						p="y-2 x-6"
+						rounded="xl"
+						shadow="md #DB202C"
+						font="semibold"
+						m="t-12"
+					>
+						Pilih Paket
+					</button>
+				</div>
+				<div bg="#1F2127" rounded="3xl" text="center" p="y-8 x-6">
+					<h3 text="#FEF4F4 xl" font="semibold">Premium</h3>
+					<div text="#DB202C 3xl" font="semibold" m="y-6">
+						Rp 186,000<span text="#FEF4F4 sm" font="normal">/bulan</span>
+					</div>
+					<ul text="#FEF4F4 left" space="y-3.5">
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Ponsel, Tablet, Komputer, TV</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>No Ads</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Batalkan Kapan Saja</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Kualitas Video Baik</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Resolusi 480p</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Resolusi 720p</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Resolusi 1080p</p>
+						</li>
+						<li flex space="x-2">
+							<img src="assets/img/cheklist.png" height="100%" alt="checklist" />
+							<p>Resolusi 4K+HDR</p>
+						</li>
+					</ul>
+					<button
+						bg="transparent"
+						text="#FEF4F4"
+						p="y-2 x-6"
+						rounded="xl"
+						font="semibold"
+						m="t-12"
+						border="~ #FEF4F4"
+					>
+						Pilih Paket
+					</button>
 				</div>
 			</div>
 		</section>
