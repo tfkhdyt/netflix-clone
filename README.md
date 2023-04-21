@@ -47,3 +47,8 @@ pnpm preview
 # format the code
 pnpm format
 ```
+
+## Credits
+
+Thanks to [Muhammad Fauzan Alkhairi](https://www.figma.com/@muhammadfauzana) for the design
+https://codedesign.dev/challenge/clone-netflix
